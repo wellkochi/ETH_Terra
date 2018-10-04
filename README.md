@@ -21,7 +21,7 @@ While Ethereum community is working on Ethereum 2.0, there are other platfroms w
 We will issue 1000 Terra token (TER) on Ethereum as [ERC-20 (EIP-20) standard](https://github.com/ConsenSys/Tokens/blob/master/contracts/eip20/EIP20Interface.sol). 
 
 ### Cross-Chain Protocol
-As to my knowledge, at present, blockchains are isolated islands themselves. However, interoperability projects are being developed. some of them are:
+As to my knowledge, at present, blockchains are isolated islands themselves. However, interoperability projects are being developed and they are in pre-alpha phase. Some of them are:
 * [Cosmos](https://cosmos.network/) with its [Tendermint](https://tendermint.com/) and [Ethermint](https://github.com/cosmos/ethermint)
 * [Polkadot](https://polkadot.network/) ([repo](https://github.com/paritytech/polkadot))
 * [Interledger](https://interledger.org/)
