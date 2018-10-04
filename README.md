@@ -27,7 +27,7 @@ As to my knowledge, at present, blockchains are isolated islands themselves. How
 * [Interledger](https://interledger.org/)
 * [Atomic Swap](https://www.investopedia.com/terms/a/atomic-swaps.asp) - good for DEX and crypto trading
 
-### Dfinity
+### Dfinity (in progress)
 [Some stats](https://www.reddit.com/r/dfinity/comments/8abkb0/how_many_transactions_per_second_can_dfinity_do/) about Dfinity:
 > * **Blocktime**: 0.5 second on testnet (from blog post), 5-10 SEC in practice (from the website). (EOS claims 0.5s in white paper but presumably will also have to detune)
 > * **Gas per block**: 125-250M (from the website) (Ethereum gas limit is currently 8M, EOS doesn't seem to have a gas concept but total bandwidth will be limited by the block producers in some unspecified but equivalent way. Interestingly EOS won't have parallel transactions or sharding at network launch so throughput is presumably bounded by the capacity of block producers)
@@ -59,7 +59,7 @@ You can use [MetaMask](https://metamask.io/) or [MyEtherWallet](https://www.myet
 
 **Exchange rate: 1 ETH = 2 TER.** You can check TER token supply info [here](https://ropsten.etherscan.io/token/0xc26684cd4e334d8435c15c9c16e76a8f1d5035db).
 
-### Cosmos Hub
+### Cosmos Hub (in progress)
 [Cosmos](https://cosmos.network/) aims to build the "hubs-and-zones" to allow different blockchains interact with each other.
 
 ![Cosmos](https://github.com/wellkochi/Terra/blob/master/cosmos.jpg)
@@ -68,16 +68,30 @@ You can use [MetaMask](https://metamask.io/) or [MyEtherWallet](https://www.myet
 
 ![Tendermint](https://github.com/wellkochi/Terra/blob/master/tendermint.png)
 
+### DNF Wallet (mimic)
+Like aforementioned, DNF is still under development, so we will create a blockchain to mimic Dfinity blockchain. 
+Use MultiChain to create your own blockchain. Please proceed to [here](https://www.multichain.com/getting-started/).
+
 ---
 
-## Notes:
-**To prevent double-spending:** As MultiChain explained here:
+## Closing Notes:
+**To prevent double-spending:** In example 1, as MultiChain states here:
 > MultiChain also provides the `disablerawtransaction` API to disable an offer after it has been distributed. This works so long as nobody has yet accepted the offer by extending it into a balanced transaction and broadcasting that transaction to the network. An offer is disabled by spending the assets used in one of the offer’s inputs, sending them back to their source. At this point the offer becomes useless, because one of its inputs refers to a previously spent transaction output, which the blockchain’s double-spend rules prevent from being spent again.
 
+In example 2, Cosmos hub requires its users to stake its native [Atom token](https://cosmos.network/docs/introduction/cosmos-hub.html#atoms) when interact with the hub, but there are not much information has been released yet. I assume Atoms and Photons will be used as a stake mechanism which prevent double-spending. If you have any info, please let me konw.
+
 **Token Exchange Speed:**
-I didn't find any info about this one. But I assume the atomic swap speed created by MultiChainis is constant. If you have any info, please let me konw.
+I didn't find any info about this one. But I assume the speed in both Cosmos and Atomic Swap is constant. If you have any info, please let me konw.
 
 **Security guarantees of a normal Ethereum transaction:**
-Since Dfinity blockchain is a mimic, this end is secured by MultiChain's security.
+This depends on both cross-chain protocol part and the other blockchain (in this case, Dfinify).
+**Cross-chain protocol**: In example 1, Atomic Swap's mechanism ensures tokens are safe during the process. Atomic Swap has been used on some DEX and no accident has happened yet. Here is an video explains [how it works](https://youtu.be/C2Io5DoLGGc). 
+In example 2, since Cosmos Hub is still under development, we cannot tell if the system is secure at the moment, and will need to wait for its release and battle-test it.
+**Dfinity**: Since Dfnity is still under development, we cannot tell if the system is secure at the moment, and will need to wait for its release and battle-test it.
+
+---
+
+## Closing Thoughts:
+Blockchain space is still early. Scalability and interoperability are definitely crucial factors for blockchain to reach the mainstream adoption. We are seeing many projects are being developed to solve these problems, but we need time to test them out. I am keeping my eyes on these projects mentioned before, and I have no doubt these problem will be solved since many talented developers are working on them. If you are a developer, I encourge you to join this. Now it is time for us developers to BUILD.
 
 
