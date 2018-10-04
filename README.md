@@ -61,8 +61,11 @@ You can use [MetaMask](https://metamask.io/) or [MyEtherWallet](https://www.myet
 
 ### Cosmos Hub
 [Cosmos](https://cosmos.network/) aims to build the "hubs-and-zones" to allow different blockchains interact with each other.
+
 ![Cosmos](https://github.com/wellkochi/Terra/blob/master/cosmos.jpg)
+
 [Tendermint](https://tendermint.com/) is a software which can be used to achieve Byzantine fault tolerance (BFT) in any distributed computing platforms. Cosmos is build on top of Tendermint.
+
 ![Tendermint](https://github.com/wellkochi/Terra/blob/master/tendermint.png)
 
 ---
