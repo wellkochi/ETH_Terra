@@ -27,7 +27,7 @@ As to my knowledge, at present, blockchains are isolated islands themselves. How
 * [Interledger](https://interledger.org/)
 * [Atomic Swap](https://www.investopedia.com/terms/a/atomic-swaps.asp) - good for DEX and crypto trading
 
-### Dfinity (in progress)
+### Dfinity (development in progress)
 [Some stats](https://www.reddit.com/r/dfinity/comments/8abkb0/how_many_transactions_per_second_can_dfinity_do/) about Dfinity:
 > * **Blocktime**: 0.5 second on testnet (from blog post), 5-10 SEC in practice (from the website). (EOS claims 0.5s in white paper but presumably will also have to detune)
 > * **Gas per block**: 125-250M (from the website) (Ethereum gas limit is currently 8M, EOS doesn't seem to have a gas concept but total bandwidth will be limited by the block producers in some unspecified but equivalent way. Interestingly EOS won't have parallel transactions or sharding at network launch so throughput is presumably bounded by the capacity of block producers)
@@ -59,7 +59,7 @@ You can use [MetaMask](https://metamask.io/) or [MyEtherWallet](https://www.myet
 
 **Exchange rate: 1 ETH = 2 TER.** You can check TER token supply info [here](https://ropsten.etherscan.io/token/0xc26684cd4e334d8435c15c9c16e76a8f1d5035db).
 
-### Cosmos Hub (in progress)
+### Cosmos Hub (development in progress)
 [Cosmos](https://cosmos.network/) aims to build the "hubs-and-zones" to allow different blockchains interact with each other.
 
 ![Cosmos](https://github.com/wellkochi/Terra/blob/master/cosmos.jpg)
