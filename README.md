@@ -36,8 +36,9 @@ As to my knowledge, at present, blockchains are isolated islands themselves. How
 ---
 ![Example](https://github.com/wellkochi/Terra/blob/master/Example.png)
 ### ETH Wallet
-You can use [MetaMask](https://metamask.io/) or [MyEtherWallet](https://www.myetherwallet.com/). 1000 Terra token (TER) has been issued on Ropsten testnet, which you can redeem them by sending Ropsten ETH to [0xC26684Cd4e334D8435C15C9c16e76A8f1d5035Db](https://ropsten.etherscan.io/token/0xc26684cd4e334d8435c15c9c16e76a8f1d5035db). **Exchange rate: 1 ETH = 2 TER.**
-You can check TER token info [here](https://ropsten.etherscan.io/token/0xc26684cd4e334d8435c15c9c16e76a8f1d5035db).
+You can use [MetaMask](https://metamask.io/) or [MyEtherWallet](https://www.myetherwallet.com/). 1000 Terra token (TER) has been issued on Ropsten testnet, which you can redeem them by sending Ropsten ETH to [0xC26684Cd4e334D8435C15C9c16e76A8f1d5035Db](https://ropsten.etherscan.io/token/0xc26684cd4e334d8435c15c9c16e76a8f1d5035db). 
+
+**Exchange rate: 1 ETH = 2 TER.** You can check TER token info [here](https://ropsten.etherscan.io/token/0xc26684cd4e334d8435c15c9c16e76a8f1d5035db).
 
 ### Atomic Swap
 In this case, we will use [Atomic Swap](https://www.investopedia.com/terms/a/atomic-swaps.asp) to exchange our TER token for other tokens. Atomic Swap is a popular method used in decentralized exchange (DEX). Check out explanation [here](https://www.cryptocompare.com/coins/guides/what-are-atomic-swaps/) and video explanation [here](https://youtu.be/C2Io5DoLGGc).
@@ -50,7 +51,8 @@ Like aforementioned, DNF is still under development, so we will create a blockch
 **You will need to do two things: 
 1. Use MultiChain to create your own blockchain. Please proceed to [here](https://www.multichain.com/getting-started/).
 2. Once the mimic blockchain is built, proceed to [here](https://www.multichain.com/developers/atomic-exchange-transactions/) to do a simple Atomic exchange.**
-After the Atomic exchange, you will have the the mimic tokens in the blockchain you build
+
+---
 
 ## Notes:
 **To prevent double-spending:** As MultiChain explained here:
