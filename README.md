@@ -86,8 +86,8 @@ I didn't find any info about this one. But I assume the speed in both Cosmos and
 **Security guarantees of a normal Ethereum transaction:**
 This depends on both cross-chain protocol part and the other blockchain (in this case, Dfinify).
 **Cross-chain protocol**: In example 1, Atomic Swap's mechanism ensures tokens are safe during the process. Atomic Swap has been used on some DEX and no accident has happened yet. Here is an video explains [how it works](https://youtu.be/C2Io5DoLGGc). 
-In example 2, since Cosmos Hub is still under development, we cannot tell if the system is secure at the moment, and will need to wait for its release and battle-test it.
-**Dfinity**: Since Dfnity is still under development, we cannot tell if the system is secure at the moment, and will need to wait for its release and battle-test it.
+In example 2, since Cosmos Hub is still under development, we cannot tell if the system is secure at the moment, and will need to wait for its release and battle-test it. If you have any info, please let me konw.
+**Dfinity**: Since Dfnity is still under development, we cannot tell if the system is secure at the moment, and will need to wait for its release and battle-test it. If you have any info, please let me konw.
 
 ---
 
