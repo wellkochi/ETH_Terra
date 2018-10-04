@@ -33,9 +33,10 @@ As to my knowledge, at present, blockchains are isolated islands themselves. How
 > * **Gas per block**: 125-250M (from the website) (Ethereum gas limit is currently 8M, EOS doesn't seem to have a gas concept but total bandwidth will be limited by the block producers in some unspecified but equivalent way. Interestingly EOS won't have parallel transactions or sharding at network launch so throughput is presumably bounded by the capacity of block producers)
 > * **Finality time**: 2 blocks (from the website). (Ethereum finality depends on Casper design. EOS seems to be 2 seconds on the testnet or 4 blocks)
 
-![Example](https://github.com/wellkochi/Terra/blob/master/Example.jpeg)
+---
+![Example](https://github.com/wellkochi/Terra/blob/master/Example.png)
 ### ETH Wallet
-You can use [MetaMask](https://metamask.io/) or [MyEtherWallet](https://www.myetherwallet.com/). I issued 1000 Terra token (TER) on Ropsten testnet, which you can redeem them by sending Ropsten ETH to `0xC26684Cd4e334D8435C15C9c16e76A8f1d5035Db`. **1 ETH = 2 TER.**
+You can use [MetaMask](https://metamask.io/) or [MyEtherWallet](https://www.myetherwallet.com/). 1000 Terra token (TER) has been issued on Ropsten testnet, which you can redeem them by sending Ropsten ETH to `0xC26684Cd4e334D8435C15C9c16e76A8f1d5035Db`. **1 ETH = 2 TER.**
 
 ### Atomic Swap
 In this case, we will use [Atomic Swap](https://www.investopedia.com/terms/a/atomic-swaps.asp) to exchange our TER token for other tokens. Atomic Swap is a popular method used in decentralized exchange (DEX). Check out explanation [here](https://www.cryptocompare.com/coins/guides/what-are-atomic-swaps/) and video explanation [here](https://youtu.be/C2Io5DoLGGc).
@@ -43,8 +44,8 @@ In this case, we will use [Atomic Swap](https://www.investopedia.com/terms/a/ato
 
 ([Source](https://github.com/decred/atomicswap))
 
-### DNF Wallet
-Like mentioned before, DNF is still under development, so we will create a blockchain to mimic Dfinity blockchain. You will need to do two things: 
+### DNF Wallet (mimic)
+Like aforementioned, DNF is still under development, so we will create a blockchain to mimic Dfinity blockchain. You will need to do two things: 
 1. Use MultiChain to create your own blockchain. Please proceed to [here](https://www.multichain.com/getting-started/).
 2. Once the blockchain is built, proceed to [here](https://www.multichain.com/developers/atomic-exchange-transactions/) to do a simple Atomic exchange.
 Once you are done, you can start to run computation on the mimic Dfinity blockchain using DNF token.
@@ -57,7 +58,7 @@ Once you are done, you can start to run computation on the mimic Dfinity blockch
 I didn't find any info about this one. But I assume the atomic swap speed created by MultiChainis is constant. If you have any info, please let me konw.
 
 **Security guarantees of a normal Ethereum transaction:**
-Since Dfinity blockchain is a mimic, this end is secured by MultiChain's security function, which is legit.
+Since Dfinity blockchain is a mimic, this end is secured by MultiChain's security, which is legit.
 
 
 
