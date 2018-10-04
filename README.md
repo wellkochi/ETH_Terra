@@ -22,7 +22,7 @@ We will issue 1000 Terra token (TER) on Ethereum as [ERC-20 (EIP-20) standard](h
 
 ### Cross-Chain Protocol
 As to my knowledge, at present, blockchains are isolated islands themselves. However, interoperability projects are being developed and they are in pre-alpha phase. Some of them are:
-* **[Cosmos](https://cosmos.network/) with its [Tendermint consensus](https://tendermint.com/) and [Ethermint](https://github.com/cosmos/ethermint)**
+* [Cosmos](https://cosmos.network/) with its [Tendermint](https://tendermint.com/) and [Ethermint](https://github.com/cosmos/ethermint)
 * [Polkadot](https://polkadot.network/) ([repo](https://github.com/paritytech/polkadot))
 * [Interledger](https://interledger.org/)
 * [Atomic Swap](https://www.investopedia.com/terms/a/atomic-swaps.asp) - good for DEX and crypto trading
@@ -38,7 +38,7 @@ As to my knowledge, at present, blockchains are isolated islands themselves. How
 ### ETH Wallet
 You can use [MetaMask](https://metamask.io/) or [MyEtherWallet](https://www.myetherwallet.com/). 1000 Terra token (TER) has been issued on Ropsten testnet, which you can redeem them by sending Ropsten ETH to [0xC26684Cd4e334D8435C15C9c16e76A8f1d5035Db](https://ropsten.etherscan.io/token/0xc26684cd4e334d8435c15c9c16e76a8f1d5035db). 
 
-**Exchange rate: 1 ETH = 2 TER.** You can check TER token info [here](https://ropsten.etherscan.io/token/0xc26684cd4e334d8435c15c9c16e76a8f1d5035db).
+**Exchange rate: 1 ETH = 2 TER.** You can check TER token supply info [here](https://ropsten.etherscan.io/token/0xc26684cd4e334d8435c15c9c16e76a8f1d5035db).
 
 ### Atomic Swap
 In this case, we will use [Atomic Swap](https://www.investopedia.com/terms/a/atomic-swaps.asp) to exchange our TER token for other tokens. Atomic Swap is a popular method used in decentralized exchange (DEX). Check out explanation [here](https://www.cryptocompare.com/coins/guides/what-are-atomic-swaps/) and video explanation [here](https://youtu.be/C2Io5DoLGGc).
@@ -50,7 +50,20 @@ In this case, we will use [Atomic Swap](https://www.investopedia.com/terms/a/ato
 Like aforementioned, DNF is still under development, so we will create a blockchain to mimic Dfinity blockchain. 
 **You will need to do two things: 
 1. Use MultiChain to create your own blockchain. Please proceed to [here](https://www.multichain.com/getting-started/).
-2. Once the mimic blockchain is built, proceed to [here](https://www.multichain.com/developers/atomic-exchange-transactions/) to do a simple Atomic exchange.**
+2. Once the mimic blockchain is built, proceed to [here](https://www.multichain.com/developers/atomic-exchange-transactions/) to do a simple Atomic exchange.
+
+---
+![Example_2](https://github.com/wellkochi/Terra/blob/master/Example_2.png)
+### ETH Wallet
+You can use [MetaMask](https://metamask.io/) or [MyEtherWallet](https://www.myetherwallet.com/). 1000 Terra token (TER) has been issued on Ropsten testnet, which you can redeem them by sending Ropsten ETH to [0xC26684Cd4e334D8435C15C9c16e76A8f1d5035Db](https://ropsten.etherscan.io/token/0xc26684cd4e334d8435c15c9c16e76a8f1d5035db). 
+
+**Exchange rate: 1 ETH = 2 TER.** You can check TER token supply info [here](https://ropsten.etherscan.io/token/0xc26684cd4e334d8435c15c9c16e76a8f1d5035db).
+
+### Cosmos Hub
+[Cosmos](https://cosmos.network/) aims to build the "hubs-and-zones" to allow different blockchains interact with each other.
+![Cosmos](https://github.com/wellkochi/Terra/blob/master/Cosmos.png)
+[Tendermint](https://tendermint.com/) is a software which can be used to achieve Byzantine fault tolerance (BFT) in any distributed computing platforms. Cosmos is build on top of Tendermint.
+![Tendermint](https://github.com/wellkochi/Terra/blob/master/Cosmos.png)
 
 ---
 
