@@ -1,6 +1,6 @@
 # Terra Cross-Chain Proposal
 
-This is a proposal to issue and store Terra Token (TER) token on Ethereum ([ERC-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)) while use [Dfinity](https://dfinity.org/) (development in progress) to compute and run transactions. 
+This is a proposal to issue and store Terra token (TER) on Ethereum ([ERC-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)) while use [Dfinity](https://dfinity.org/) (development in progress) to compute and run transactions. 
 
 ## Background
 While Ethereum is by far the leading plaform for DApps and tokens, it has a major drawback: scalability. Current Ethereum mainnet processes ~15tx/s (for contrast, Visa processes ~2000tx/s). Consider the current DApp environment, this is not a big issue since there are not many users. However, in order to see the mainstream adoption of blockchain technology, scalability and transaction speed are definitely predominant factors.
