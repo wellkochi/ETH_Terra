@@ -74,13 +74,13 @@ Use MultiChain to create your own blockchain. Please proceed to [here](https://w
 
 ---
 
-## Closing Notes:
+## Notes:
 **To prevent double-spending:** In example 1, as MultiChain states here:
 > MultiChain also provides the `disablerawtransaction` API to disable an offer after it has been distributed. This works so long as nobody has yet accepted the offer by extending it into a balanced transaction and broadcasting that transaction to the network. An offer is disabled by spending the assets used in one of the offer’s inputs, sending them back to their source. At this point the offer becomes useless, because one of its inputs refers to a previously spent transaction output, which the blockchain’s double-spend rules prevent from being spent again.
 
 In example 2, Cosmos hub requires its users to stake its native [Atom token](https://cosmos.network/docs/introduction/cosmos-hub.html#atoms) when interact with the hub, but there are not much information has been released yet. I assume Atoms and Photons will be used as a stake mechanism which prevent double-spending. If you have any info, please let me konw.
 
-**Token Exchange Speed:**
+**Token exchange speed:**
 I didn't find any info about this one. But I assume the speed in both Cosmos and Atomic Swap is constant. If you have any info, please let me konw.
 
 **Security guarantees of a normal Ethereum transaction:**
