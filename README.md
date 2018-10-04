@@ -2,6 +2,8 @@
 
 This is a proposal to issue and store Terra token (TER) on Ethereum ([ERC-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)) while use [Dfinity](https://dfinity.org/) (development in progress) to compute and run transactions. 
 
+**Notes: As for October 2018, blockchain interoperability projects are still under development and in pre-alpha phase. Therefore, this is merely a proposal and shall be referenced in the future.**
+
 ## Background
 While Ethereum is by far the leading plaform for DApps and tokens, it has a major drawback: scalability. Current Ethereum mainnet processes ~15tx/s (for contrast, Visa processes ~2000tx/s). Consider the current DApp environment, this is not a big issue since there are not many users. However, in order to see the mainstream adoption of blockchain technology, scalability and transaction speed are definitely predominant factors.
 
@@ -12,8 +14,6 @@ While Ethereum community is working on Ethereum 2.0, there are other platfroms w
 * [Nebulas](https://nebulas.io/)
 * [Dfinity](https://dfinity.org/)
 
-**In this case, I propose a system that issue and store token on Ethereum and uses Dfinity for computation. Since Dfinity is still under development, we will use [MultiChain](https://www.multichain.com/) to create our own blockchain as a Dfinity imitation.**
-
 ## Architecture
 ![Concept](https://github.com/wellkochi/Terra/blob/master/Concept.jpeg)
 
@@ -22,7 +22,7 @@ We will issue 1000 Terra token (TER) on Ethereum as [ERC-20 (EIP-20) standard](h
 
 ### Cross-Chain Protocol
 As to my knowledge, at present, blockchains are isolated islands themselves. However, interoperability projects are being developed and they are in pre-alpha phase. Some of them are:
-* [Cosmos](https://cosmos.network/) with its [Tendermint](https://tendermint.com/) and [Ethermint](https://github.com/cosmos/ethermint)
+* **[Cosmos](https://cosmos.network/) with its [Tendermint consensus](https://tendermint.com/) and [Ethermint](https://github.com/cosmos/ethermint)**
 * [Polkadot](https://polkadot.network/) ([repo](https://github.com/paritytech/polkadot))
 * [Interledger](https://interledger.org/)
 * [Atomic Swap](https://www.investopedia.com/terms/a/atomic-swaps.asp) - good for DEX and crypto trading
