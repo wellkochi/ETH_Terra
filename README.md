@@ -4,7 +4,7 @@ This is a proposal to issue and store Terra token (TER) on Ethereum ([ERC-20](ht
 
 **Terra token (TER):** 1000 Terra token (TER) has been issued on Ethereum Ropsten testnet, which you can redeem them by sending Ropsten ETH to [0xC26684Cd4e334D8435C15C9c16e76A8f1d5035Db](https://ropsten.etherscan.io/token/0xc26684cd4e334d8435c15c9c16e76a8f1d5035db). 
 
-**Exchange rate: 1 ETH = 2 TER.** You can check TER token supply info [here](https://ropsten.etherscan.io/token/0xc26684cd4e334d8435c15c9c16e76a8f1d5035db).
+**Exchange rate:**  1 ETH = 2 TER. You can check TER token supply info [here](https://ropsten.etherscan.io/token/0xc26684cd4e334d8435c15c9c16e76a8f1d5035db).
 
 **Notes: As of October 2018, blockchain interoperability projects are still under heavy development and in pre-alpha phase. Therefore, this is a theoretical proposal and shall be referenced in the future. Many functionalities and security concerns in this proposal cannot be tested in real production environments since they are not publicly available yet.**
 
