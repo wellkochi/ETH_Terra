@@ -2,11 +2,11 @@
 
 This is a proposal to issue and store Terra token (TER) on Ethereum ([ERC-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)) and port to [Dfinity](https://dfinity.org/) blockchain (development in progress) to compute and run transactions. 
 
-**Notes: As of October 2018, blockchain interoperability projects are still under heavy development and in pre-alpha phase. Therefore, this is a theoretical proposal and shall be referenced in the future. Many functionalities and security concerns in this proposal cannot be tested in real production environments since they are not publicly available yet.**
-
 **Terra token (TER):** 1000 Terra token (TER) has been issued on Ethereum Ropsten testnet, which you can redeem them by sending Ropsten ETH to [0xC26684Cd4e334D8435C15C9c16e76A8f1d5035Db](https://ropsten.etherscan.io/token/0xc26684cd4e334d8435c15c9c16e76a8f1d5035db). 
 
 **Exchange rate: 1 ETH = 2 TER.** You can check TER token supply info [here](https://ropsten.etherscan.io/token/0xc26684cd4e334d8435c15c9c16e76a8f1d5035db).
+
+**Notes: As of October 2018, blockchain interoperability projects are still under heavy development and in pre-alpha phase. Therefore, this is a theoretical proposal and shall be referenced in the future. Many functionalities and security concerns in this proposal cannot be tested in real production environments since they are not publicly available yet.**
 
 ## Background
 While Ethereum is by far the leading plaform for DApps and tokens, it has a major drawback: scalability. Current Ethereum mainnet processes ~15tx/s (for contrast, Visa processes ~2000tx/s). Consider the current DApp environment, this is not a big issue since there are not many users. However, in order to see the mainstream adoption of blockchain technology, scalability and transaction speed are definitely predominant factors.
