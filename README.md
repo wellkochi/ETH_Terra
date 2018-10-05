@@ -78,16 +78,17 @@ Use MultiChain to create your own blockchain. Please proceed to [here](https://w
 **To prevent double-spending:** In example 1, as MultiChain states here:
 > MultiChain also provides the `disablerawtransaction` API to disable an offer after it has been distributed. This works so long as nobody has yet accepted the offer by extending it into a balanced transaction and broadcasting that transaction to the network. An offer is disabled by spending the assets used in one of the offer’s inputs, sending them back to their source. At this point the offer becomes useless, because one of its inputs refers to a previously spent transaction output, which the blockchain’s double-spend rules prevent from being spent again.
 
-In example 2, Cosmos hub requires its users to stake its native [Atom token](https://cosmos.network/docs/introduction/cosmos-hub.html#atoms) when interact with the hub, but there are not much information has been released yet. I assume Atoms and Photons will be used as a stake mechanism which prevent double-spending. If you have any info, please let me konw.
+In example 2, Cosmos hub requires its users to stake its native [Atom token](https://cosmos.network/docs/introduction/cosmos-hub.html#atoms) when interact with the hub, but I din't find any info from the doc refer to preventing double-spending, so we will need to wait for its release and battle-test it. I assume Atoms and Photons will be used as a stake mechanism which prevent double-spending. If you have any info, please let me konw.
 
 **Token exchange speed:**
-I didn't find any info about this one. But I assume the speed in both Cosmos and Atomic Swap is constant. If you have any info, please let me konw.
+I didn't find any info from the doc refer to exchange speed, so we will need to wait for its release and battle-test it. I assume the speed in both Cosmos and Atomic Swap is constant. If you have any info, please let me konw.
 
 **Security guarantees of a normal Ethereum transaction:**
-This depends on both cross-chain protocol part and the other blockchain (in this case, Dfinify).
+This depends on two parts: cross-chain protocol and the other blockchain (in this case, Dfinify).
+
 **Cross-chain protocol**: In example 1, Atomic Swap's mechanism ensures tokens are safe during the process. Atomic Swap has been used on some DEX and no accident has happened yet. Here is an video explains [how it works](https://youtu.be/C2Io5DoLGGc). 
-In example 2, since Cosmos Hub is still under development, we cannot tell if the system is secure at the moment, and will need to wait for its release and battle-test it. If you have any info, please let me konw.
-**Dfinity**: Since Dfnity is still under development, we cannot tell if the system is secure at the moment, and will need to wait for its release and battle-test it. If you have any info, please let me konw.
+In example 2, since Cosmos Hub is still under development, we cannot tell if the system is secure at the moment, so we will need to wait for its release and battle-test it. If you have any info, please let me konw.
+**Dfinity**: Since Dfnity is still under development, we cannot tell if the system is secure at the moment, so we will need to wait for its release and battle-test it. If you have any info, please let me konw.
 
 ---
 
